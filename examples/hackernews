@@ -1,3 +1,4 @@
+// https://ltst.xyz/channel/322593494104277583
 async function hnTop() {
   const updatesRes = await fetch('https://ltst.xyz/api/updates?channelId=322593494104277583');
   const { updates } = await updatesRes.json();
