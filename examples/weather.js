@@ -1,3 +1,4 @@
+// https://ltst.xyz/channel/314902100152681036
 async function call() {
   const weatherResult = await fetch('http://api.weatherapi.com/v1/current.json?key={ YOUR API KEY }&q={ YOUR LOCATION }');
   const data = await weatherResult.json();
